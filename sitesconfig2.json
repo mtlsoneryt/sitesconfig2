@@ -1,0 +1,203 @@
+{
+  "MEGA": {
+    "message_pattern": "^MEGABAHİS\\s+\\(150X2\\)\\s+(\\b[A-Z0-9]{6,12}\\b)",
+    "url_keyword": "megabahis",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": "div.success-message-class",
+    "error_message_selector": "div.error-message-class",
+    "site_name": "MEGA",
+    "channel_id": -1003674814094
+  },
+  "ARTEMİSBET": {
+    "message_pattern": "^ARTEMİS\\s+(\\b[A-Z0-9]{6,10}\\b)",
+    "url_keyword": "artemisbet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": "div.success-message",
+    "error_message_selector": "div.error-message",
+    "site_name": "ARTEMİSBET",
+    "channel_id": -1003674814094
+  },
+  "HOLİGAN": {
+    "message_pattern": "^HOLİGAN\\s+(\\b[A-Z0-9]{6,11}\\b)",
+    "url_keyword": "holiganbet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": "div.success-message",
+    "error_message_selector": "div.error-message",
+    "site_name": "HOLİGANBET",
+    "channel_id": -1003674814094
+  },
+  "TURBO": {
+    "message_pattern": "^TURBO\\s+(\\b[A-Z0-9]{5,13}\\b)",
+    "url_keyword": "turboslot",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": ".alert-success",
+    "error_message_selector": ".alert-danger",
+    "site_name": "TURBO",
+    "channel_id": -1003674814094
+  },
+  "EGEBET": {
+    "message_pattern": "^EGEBET\\s+(\\b[A-Z0-9]{6,10}\\b)",
+    "url_keyword": "egebet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": "div.alert-success",
+    "error_message_selector": "div.alert-danger",
+    "site_name": "EGEBET",
+    "channel_id": -1003674814094
+  },
+  "LUNABET": {
+    "message_pattern": "^LUNABET\\s+(\\b[A-Z0-9]{6,10}\\b)",
+    "url_keyword": "lunabet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": ".notification.is-success",
+    "error_message_selector": ".notification.is-danger",
+    "site_name": "LUNABET",
+    "channel_id": -1003674814094
+  },
+  "MAVİBET": {
+    "message_pattern": "^MAVİBET\\s+\\(150X2\\)\\s+(\\b[A-Z0-9]{6,12}\\b)",
+    "url_keyword": "mavibet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": "span.success-msg",
+    "error_message_selector": "span.error-msg",
+    "site_name": "MAVİBET",
+    "channel_id": -1003674814094
+  },
+  "MATBET": {
+    "message_pattern": "^MATBET\\s+(\\b[A-Z0-9]{8,12}\\b)",
+    "url_keyword": "matbet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": "div.bonus-claim-success",
+    "error_message_selector": "div.bonus-claim-error",
+    "site_name": "MATBET",
+    "channel_id": -1003674814094
+  },
+  "HIZLI": {
+    "message_pattern": "^HIZLICASINO\\s+(\\b[A-Z0-9]{6,12}\\b)",
+    "url_keyword": "hizlicasino",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": "div.success-alert",
+    "error_message_selector": "div.error-alert",
+    "site_name": "HIZLI",
+    "channel_id": -1003674814094
+  },
+  "NAKİTBAHİS": {
+    "message_pattern": "^NAKİT\\s+\\(150X2\\)\\s+(\\b[A-Z0-9]{6,12}\\b)",
+    "url_keyword": "nakitbahis",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": "span.success-msg",
+    "error_message_selector": "span.error-msg",
+    "site_name": "NAKİTBAHİS",
+    "channel_id": -1003674814094
+  },
+  "GRAND": {
+   "message_pattern": "(?i)PROMO[ \\t\\u00A0]*KOD[ \\t\\u00A0]*:[ \\t\\u00A0]*([A-Z0-9]{8,16})",
+   "url_keyword": "grandpashabet",
+   "code_index": 0,
+   "input_selector": "#PromoCode",
+   "button_selector": "#promo_check",
+   "success_message_selector": "div.success-message",
+   "error_message_selector": "div.error-message",
+   "site_name": "GRAND",
+   "channel_id": -1003674814094
+  },
+  "BETSMOVE": {
+    "message_pattern": "^BETSMOVE\\s+(\\b[A-Z0-9]{6,12}\\b)",
+    "url_keyword": "betsmove",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": ".success",
+    "error_message_selector": ".error",
+    "site_name": "BETSMOVE",
+    "channel_id": -1003674814094
+  },
+  "ELIT": {
+    "message_pattern": "^ELİT\\s+(\\b[A-Z0-9]{8,13}\\b)",
+    "url_keyword": "elitcasino",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": ".success",
+    "error_message_selector": ".error",
+    "site_name": "ELIT",
+    "channel_id": -1003674814094
+  },
+  "COINBAR": {
+    "message_pattern": "^COINBAR\\s+(\\b[A-Z0-9]{8,12}\\b)",
+    "url_keyword": "coinbar",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": ".success",
+    "error_message_selector": ".error",
+    "site_name": "COINBAR",
+    "channel_id": -1003674814094
+  },
+  "JOJO": {
+    "message_pattern": "^JOJOBET\\s+(\\b[A-Z0-9]{8,12}\\b)",
+    "url_keyword": "jojobet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": ".success",
+    "error_message_selector": ".error",
+    "site_name": "JOJO",
+    "channel_id": -1003674814094
+  },
+  "PUSULABET": {
+    "message_pattern": "^PUSULABET\\s+(\\b[A-Z0-9]{6,20}\\b)",
+    "url_keyword": "pusulabet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": ".notification.is-success",
+    "error_message_selector": ".notification.is-danger",
+    "site_name": "PUSULABET",
+    "channel_id": -1003674814094
+  },
+  "KAVBET": {
+    "message_pattern": "^KAVBET\\s+\\(150X2\\)\\s+(\\b[A-Z0-9]{5,12}\\b)",
+    "url_keyword": "kavbet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": ".success",
+    "error_message_selector": ".error",
+    "site_name": "KAVBET",
+    "channel_id": -1003674814094
+  },
+  "ODEON": {
+    "message_pattern": "^ODEONBET\\s+\\(150X2\\)\\s+(\\b[A-Z0-9]{6,12}\\b)",
+    "url_keyword": "odeon",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": ".success",
+    "error_message_selector": ".error",
+    "site_name": "ODEON",
+    "channel_id": -1003674814094
+  }
+}
+
+
+
